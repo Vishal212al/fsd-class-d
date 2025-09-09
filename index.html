@@ -1,82 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Time Table</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Time Table</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <table border="2px" width="100%"text-align="center">
+  <table>
     <thead>
-    <tr>
-        <th colspan="4"> ABES ENGINEERING COLLEGE </th>
-    </tr>
+      <tr>
+        <th colspan="11">ABES ENGINEERING COLLEGE</th>
+      </tr>
+      <tr>
+        <th colspan="11">CLASS TIME TABLE</th>
+      </tr>
+      <tr>
+        <th colspan="11">Department of COMPUTER SCIENCE (W.E.F 22nd August 2025)</th>
+      </tr>
     </thead>
-    <tr>
-        <th colspan="4">CLASS TIME TABLE</th>
-    </tr>
-    <tr>
-        <th colspan="4">Department of COMPUTER SCIENCE  W.E.F-22nd August 2025</th>
-    </tr>
-    <tr>
-        <th align="left" colspan="4">COURSE:B.TECH</th>
-    </tr>
-    
-    <tr>
-        <th align="left">Semester/Section-5th/A/B/C/D <th align="left">Session 2025-26, Odd SEmester</th></th>
-        
-    </tr>
-    
-    
-   </table >
-   
-    <table border="2px" width="100%"text-align="center">
-        <tr>
-            <th colspan="10" align="left">Class Room No.:-KC-602,KC-604,KC-609,KC-610</th>
-        </tr>
-        <tr>
-            <th>DAY</th>
-            <th>08:50-09:40</th>
-            <th>09:40-10:30</th>
-            <th>10:40-11:30</th>
-            <th>11:30-12:20</th>
-            <th>12:20-01:10</th>
-            <th>02:00-02:50</th>
-            <th>02:50-03:40</th>
-            <th>03:40-04:30</th>
-            
-        </tr>
-        <tr>
-            <td>MONDAY</td>
-            <td>BCS-303/DAA</td>
-            <td>BCS-552/WT/LAB</td>
-            <td>FSD TRANING</td>
-            <td>FSD TRANING</td>
-            <td>LUNCH BREAK</td>
-            <td>BCS-054/</td>
-            <td>DBMS (THEORY)</td>
-            <td>DBMS (THEORY)</td>
-            <td>DBMS (THEORY)</td>
-        </tr>
-        <tr>
-            <td>TUESDAY</td>
-            <td>DBMS (LAB)</td>
-            <td>DBMS (LAB)</td>
-            <td>DBMS (LAB)</td>
-            <td>LUNCH BREAK</td>
-            <td>DSA (THEORY)</td>
-            <td>DSA (THEORY)</td>
-            <td>DSA (THEORY)</td>
-            <td>DSA (THEORY)</td>
-        </tr>
-        <tr>
-            <td>WEDNESDAY</td>
-            <td>CNS (THEORY)</td>
-            <td>CNS (THEORY)</td>
-            <td>CNS (THEORY)</td>
-            <td>LUNCH BREAK</
-    </table>
-   
-    
+
+    <tbody>
+      <tr>
+        <td colspan="11">Course: B.Tech</td>
+      </tr>
+      <tr>
+        <td colspan="9">Semester/ Section – 5th / A / B / C / D</td>
+        <td colspan="2">Session 2025-26 (Odd Semester)</td>
+      </tr>
+      <tr>
+        <td colspan="11">Class Room No.: KC-602, KC-604, KC-605, KC-607</td>
+      </tr>
+
+      <tr>
+        <td>Day</td>
+        <td>Section</td>
+        <td>1<br>(8:50-9:40)</td>
+        <td>2<br>(9:40-10:30)</td>
+        <td>3<br>(10:40-11:30)</td>
+        <td>4<br>(11:30-12:20)</td>
+        <td>5<br>(12:20-1:10)</td>
+        <td colspan="">Break<br>(1:10-2:00)</td>
+        <td>6<br>(2:00-2:50)</td>
+        <td>7<br>(2:50-3:40)</td>
+        <td>8<br>(3:40-4:30)</td>
+      </tr>
+
+      <!-- Monday -->
+      <tr>
+        <td rowspan="4">Monday</td>
+        <td>A</td>
+        <td>BCS054/OOSD/(NB)/KC-LabFF</td>
+        <td>BCS502/WT/(BS)/KC-LabFF</td>
+        <td>BCS503/DAA/(SK)/KC-LabFF</td>
+        <td>BCS502/WT/(BS)/KC-LabFF</td>
+        <td>BCS501/DBMS/(ACH)/KC-LabFF</td>
+        <td rowspan="4" colspan="">Break</td>
+        <td colspan="3">DSA TRAINING / KC-LabFF</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>BCS054/OOSD/(MS)/KC-LabFF</td>
+        <td>BCS502/WT/(ANS)/KC-LabFF</td>
+        <td>BCS503/DAA/(MM)/KC-LabFF</td>
+        <td>BCS503/DAA/(MM)/KC-LabFF</td>
+        <td>BCS502/WT/(ANS)/KC-LabFF</td>
+        <td>BCS056/AOSC/(AA)/KC-LabFF</td>
+        <td colspan="2">BCS551/DBMS Lab (ACH, SW) / KC-LabFF</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>BCS502/WT/(ST)/KC-609</td>
+        <td>BCS503/DAA/(MM)/KC-609</td>
+        <td colspan="2">QA/LR (Harshit Sharma) / KC-609</td>
+        <td>BCS501/DBMS/(SW)/KC-609</td>
+        <td>BCS502/WT/(ST)/KC-609</td>
+        <td colspan="2">BCS553/DAA Lab (MM, SK) / KC-609</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>BCS501/DBMS/(AA)/KC-610</td>
+        <td>BCS503/DAA/(SK)/KC-610</td>
+        <td>BCS552/WT Lab (ANS, BS) / KC-610</td>
+        <td colspan="2">FSD TRAINING (Divya Raj) / KC-610</td>
+        <td>BCS054/OOSD/(MS)/KC-610</td>
+        <td>BCS054/OOSD/(MS)/KC610 </td>
+        <td>BCS056/AOSC/(SJ)/KC-610</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
+
 </html>
