@@ -1,8 +1,10 @@
 import { useState } from "react";
+import Car from "./component/Vehicle";  
+import Fruits from "./component/Fruits";
 
 
 
-function App() {
+    function App() {
   const topics = [
     { id: 1, title: "React Basics", description: "Learn about components, JSX, and props." },
     { id: 2, title: "React State", description: "Understand how state and hooks work in React." },
@@ -19,6 +21,8 @@ function App() {
 
   return (
     <div style={{ padding: "20px", fontFamily: "Arial" }}>
+      <Car />
+      <Fruits />
       <h1>📘 React Tutorial Topics</h1>
 
       <ul>
